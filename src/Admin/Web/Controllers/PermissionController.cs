@@ -3,6 +3,7 @@ using System.ComponentModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using NetModular.Lib.Auth.Web;
+using NetModular.Lib.Auth.Web.Permission;
 
 namespace NetModular.Module.Admin.Web.Controllers
 {

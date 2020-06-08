@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using NetModular.Lib.Auth.Abstractions;
+using NetModular.Lib.Auth.Abstractions.Config;
 using NetModular.Lib.Config.Abstractions;
 
 namespace NetModular.Lib.Auth.Jwt

@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using NetModular.Lib.Auth.Abstractions;
+using NetModular.Lib.Auth.Abstractions.Config;
 using NetModular.Lib.Auth.Web;
 using NetModular.Lib.Config.Abstractions;
 using NetModular.Lib.Utils.Core.Attributes;

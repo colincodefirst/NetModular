@@ -1,4 +1,5 @@
 ﻿using NetModular.Lib.Auth.Abstractions;
+using NetModular.Lib.Auth.Abstractions.Config;
 using NetModular.Lib.Config.Abstractions;
 using NetModular.Lib.Config.Abstractions.Impl;
 using NetModular.Module.Admin.Application.ConfigService.ResultModels;

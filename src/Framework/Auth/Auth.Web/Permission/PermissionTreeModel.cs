@@ -1,4 +1,4 @@
-﻿namespace NetModular.Lib.Auth.Web
+﻿namespace NetModular.Lib.Auth.Web.Permission
 {
     /// <summary>
     /// 权限树模型

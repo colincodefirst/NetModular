@@ -1,6 +1,6 @@
 ﻿using NetModular.Lib.Utils.Core.Enums;
 
-namespace NetModular.Lib.Auth.Web
+namespace NetModular.Lib.Auth.Web.Permission
 {
     /// <summary>
     /// 权限描述符

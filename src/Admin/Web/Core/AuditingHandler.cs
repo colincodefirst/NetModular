@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using NetModular.Lib.Auth.Abstractions;
+using NetModular.Lib.Auth.Abstractions.Config;
 using NetModular.Lib.Auth.Web;
 using NetModular.Lib.Config.Abstractions;
 using NetModular.Lib.Module.Abstractions;

@@ -13,6 +13,11 @@ namespace NetModular.Lib.Data.Core.Entities
         /// 主键
         /// </summary>
         public virtual TKey Id { get; set; }
+
+        /// <summary>
+        /// 租户ID
+        /// </summary>
+        public Guid TenantId { get; set; }
     }
 
     /// <summary>

@@ -8,11 +8,10 @@ using NetModular.Lib.Config.Abstractions.Impl;
 using NetModular.Lib.Module.Abstractions;
 using NetModular.Lib.Utils.Core.Abstracts;
 using NetModular.Lib.Utils.Core.Enums;
-using NetModular.Lib.Utils.Core.Extensions;
 using NetModular.Lib.Utils.Core.Result;
 using NetModular.Lib.Utils.Mvc.Helpers;
 
-namespace NetModular.Lib.Auth.Web
+namespace NetModular.Lib.Auth.Web.Permission
 {
     /// <summary>
     /// 权限集合

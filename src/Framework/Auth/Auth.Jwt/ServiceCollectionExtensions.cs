@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using NetModular.Lib.Auth.Web;
+using NetModular.Lib.Auth.Web.Permission;
 
 namespace NetModular.Lib.Auth.Jwt
 {

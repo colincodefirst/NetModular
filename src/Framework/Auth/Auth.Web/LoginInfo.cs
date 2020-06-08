@@ -19,6 +19,24 @@ namespace NetModular.Lib.Auth.Web
         }
 
         /// <summary>
+        /// 租户编号
+        /// </summary>
+        public Guid TenantId
+        {
+            get
+            {
+                var tenantId = _contextAccessor?.HttpContext?.User?.FindFirst(ClaimsName.TenantId);
+
+                if (tenantId != null && tenantId.Value.NotNull())
+                {
+                    return new Guid(tenantId.Value);
+                }
+
+                return Guid.Empty;
+            }
+        }
+
+        /// <summary>
         /// 账户编号
         /// </summary>
         public Guid AccountId
